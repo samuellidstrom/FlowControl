@@ -1,8 +1,8 @@
 ﻿namespace FlowControl_Test01
 {
-    internal class OneTicket
+    internal class MovieOneTicket
     {
-        public OneTicket(int age)
+        public MovieOneTicket(int age)
         {
             int pris;
             string priskategori;
@@ -14,6 +14,9 @@
             else { pris = 120; priskategori = "Standardpris"; }
 
             Console.WriteLine($"\n  Som {age}-åring gäller följande. | {priskategori}: {pris}kr.");
+            Console.WriteLine($"\n  Tryck enter för att återgå till biograf BioLogiks huvudmeny.");
+            Console.ReadLine();
+            YouthOrRetired youthOrRetired = new YouthOrRetired();
         }
 
     }

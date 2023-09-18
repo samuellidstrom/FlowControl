@@ -6,9 +6,8 @@
         public YouthOrRetired()
         {
             Console.Clear();
-            Console.WriteLine(".: Ungdom eller pensionär :.");
+            Console.WriteLine("\n.: Ungdom eller pensionär :.");
             Console.WriteLine("\n  Välkommen till biografen BioLogik.");
-
 
             do
             {
@@ -22,7 +21,7 @@
 
                 if (success == true)
                 {
-                    OneTicket enkelBiljett = new OneTicket(singleAge);
+                    MovieOneTicket enkelBiljett = new MovieOneTicket(singleAge);
                 }
                 else if (input == "m")
                 {
@@ -30,7 +29,7 @@
                 }
                 else if (input == "s")
                 {
-                    Console.WriteLine("\nSÄLLSKAP");
+                    MovieManyTickets fleraBiljetter = new MovieManyTickets();
                 }
                 else
                 {

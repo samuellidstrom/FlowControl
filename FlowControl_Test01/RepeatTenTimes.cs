@@ -58,7 +58,7 @@
                     Console.Write(".");
                 }
             }
-            Console.WriteLine("\n\nSkriv gärna något mer för att leka igen!");
+            Console.WriteLine("\n\n  Skriv gärna något mer för att leka igen!");
             Console.WriteLine("  (Förutom m då. Det tar dig som vanligt tillbaka till huvudmenyn)");
         }
     }
